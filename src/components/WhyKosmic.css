@@ -1,0 +1,53 @@
+.why-kosmic-section {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .why-kosmic-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-size: cover;
+    background-position: center;
+     /* Adjust the opacity level */
+    background-color: #ffff;
+    z-index: -1; /* Ensure background stays behind content */
+     /* Optional for darker background */
+  }
+  .overlay-image {
+    position: absolute;
+    top: 89%;
+    left: 74%;
+    width: 340px;
+    height: 250px; /* Set the size for the second image */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    animation: fadeInMove 1.5s ease-in-out forwards;
+    opacity: 0; /* Start hidden */
+  }
+  .main-image {
+    border: 5px solid #00bfa6; /* Green border for the main image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for better focus */
+    transition: transform 0.3s ease;
+    padding-left: 10px;
+  }
+  
+  .main-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  @keyframes fadeInMove {
+    0% {
+      transform: translate(-50%, -50%) scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
