@@ -15,7 +15,7 @@ const CTAButtons = () => {
     <div className="fixed right-0 bottom-0 sm:bottom-auto sm:top-[185px] sm:right-0 sm:flex sm:flex-col z-50 p-[4px] md:p-2">
       <div className="bg-teal-500 flex sm:flex-col justify-center items-center w-full sm:w-auto md:max-w-md mx-auto p-2 rounded-lg shadow-lg">
         <a
-          href="https://wa.me/9554671006" 
+          href="https://wa.me/+917054626931" 
           target="_blank"
           rel="noopener noreferrer"
           className="text-white flex items-center justify-center p-3 rounded-full hover:bg-green-600 transition duration-300"
@@ -23,7 +23,7 @@ const CTAButtons = () => {
           <FaWhatsapp size={24} />
         </a>
         <a
-          href="tel:+91-7054626931"
+          href="tel:+917054626931"
           className="text-white flex items-center justify-center p-3 rounded-full hover:bg-blue-600 transition duration-300"
         >
           <FaPhone size={24} />
