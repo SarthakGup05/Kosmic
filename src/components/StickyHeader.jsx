@@ -38,7 +38,7 @@ const Stickyheader = () => {
         <div className="flex flex-col sm:flex-row items-center mt-2 sm:mt-0 text-center sm:text-right">
           {/* Contact Number with Phone Icon */}
           <a
-            href="tel:+919821999447"
+            href="tel:+91-9793658231"
             className="flex items-center justify-center text-teal-600 font-semibold hover:underline text-xs sm:text-sm mr-0 sm:mr-4"
           >
             <FaPhoneAlt className="mr-1" /> +91-9793658231
